@@ -1,0 +1,89 @@
+<project name="seeTestTemplateJunit" default="compile">
+	
+    <!-- compile the project -->
+	<target name="compile">
+		<delete dir="classes" failonerror="false"/>
+		<mkdir dir="classes"/>
+		<path id="lib.path.ref">
+			<fileset dir="lib" includes="*.jar"/>
+		</path>
+		<javac srcdir="src" destdir="classes" classpathref="lib.path.ref"/>
+		<copy todir="classes">
+			<fileset dir="src" excludes="**/*.java" />
+		</copy>
+	</target>
+	<path id="project.classpath">
+	    <pathelement location="classes" />
+		<fileset dir="lib" includes="*.jar" />
+	</path>
+	
+	<!-- configure execution suites (to run in parallel) -->
+	<target name="execute_suites">
+	    <tstamp>
+       		<format property="execution.start.time" pattern="MM-dd-yyyy HH.mm,ss" unit="hour"/>
+ 	    </tstamp>
+ 	    
+	    <parallel>	   	
+	        
+	        <antcall target="sandbox_suite">
+	            <param name="host" value="localhost"/>
+	        	<param name="port" value="8890"/>
+	    	    <param name="device.name" value="adb:LG-F180L"/>
+	        </antcall>  
+	        
+	        <antcall target="sandbox_suite">
+	            <param name="host" value="localhost"/>
+	        	<param name="port" value="8889"/>
+	    	    <param name="device.name" value="adb:LG-F180L"/>
+	        </antcall>    	
+	        
+		</parallel>   
+	</target>
+	
+	<!-- configure the tests set of the following suite -->
+	<target name="sandbox_suite">
+	    <property name="suite.name" value="sandbox_suite"/>
+	    <property name="host" value="${host}"/>
+	    <property name="port" value="${port}"/>
+	    <property name="device.name" value="${device.name}"/>
+
+	    <antcall target="run_test">
+	        <param name="host" value="${host}"/>
+	        <param name="port" value="${port}"/>
+	        <param name="device.name" value="${device.name}"/>
+	        <param name="data.set" value="4"/>
+	        <param name="test.class" value="com.company.tests.MakePayment"/>
+	    </antcall>
+	    
+	    <antcall target="run_test">
+	        <param name="host" value="${host}"/>
+	        <param name="port" value="${port}"/>
+	        <param name="device.name" value="${device.name}"/>
+	        <param name="data.set" value="1"/>
+	        <param name="test.class" value="com.company.tests.MakePayment"/>
+	    </antcall>
+	    
+	    <antcall target="run_test">
+	        <param name="host" value="${host}"/>
+	        <param name="port" value="${port}"/>
+	        <param name="device.name" value="${device.name}"/>
+	        <param name="data.set" value="3"/>
+	        <param name="test.class" value="com.company.tests.LoginOnly"/>
+	    </antcall>
+	</target>
+	
+		<!-- generic target to execute a single junit class -->
+	<target name="run_test">
+	    <junit fork="true">
+	        <sysproperty key="execution.start.time" value="${execution.start.time}"/>
+	        <sysproperty key="suite.name" value="${suite.name}"/>
+	        <sysproperty key="host" value="${host}"/>
+	        <sysproperty key="port" value="${port}"/>
+	        <sysproperty key="device.name" value="${device.name}"/>
+	        <sysproperty key="data.set" value="${data.set}"/>       
+			<classpath refid="project.classpath" />
+			<test name="${test.class}" />
+		</junit>
+	</target>
+	
+</project>

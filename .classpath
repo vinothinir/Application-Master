@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/boon-0.33.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/commons-codec-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/httpclient-4.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/httpcore-4.4.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/httpmime-4.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/imageClient.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/manager-client.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/mobile-webdriver.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/selenium-api-2.42.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/selenium-support-2.44.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/ws-commons-util-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/xmlrpc-client-3.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files (x86)/Experitest/SeeTest/clients/java/xmlrpc-common-3.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="/ITS_Headless/lib/apache-logging-log4j.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/apache-mime4j-0.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/bsh-2.0b4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/cglib-nodep-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-codec-1.10.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-collections-3.2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-el-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-exec-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-lang3-3.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/cssparser-0.9.16.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/gson-2.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/guava-19.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/hamcrest-library-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/hk2-api-2.4.0-b12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/hk2-locator-2.4.0-b12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/hk2-utils-2.4.0-b12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/htmlunit-2.18.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/htmlunit-core-js-2.17.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/httpclient-4.5.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/httpcore-4.4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/httpmime-4.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/imageClient.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jasper-compiler-5.5.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jasper-compiler-jdt-5.5.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jasper-runtime-5.5.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/javax.annotation-api-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/javax.inject-2.4.0-b12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jcommander-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-client.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-common.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-container-servlet.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-container-servlet-2.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-container-servlet-core.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-guava-2.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-media-jaxb.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jersey-server.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-continuation-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-http-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-io-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-jmx-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-security-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-server-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-servlet-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-servlets-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jetty-util-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jna-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jna-platform-4.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jsch-0.1.54.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jsch-0.1.54.zip"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/json-20140107.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jsp-api-2.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/junit-4.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/jxl-2.6.12.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/mobile-webdriver.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/nekohtml-1.9.22.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/netty-3.5.7.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/phantomjsdriver-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/rest-assured-2.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/sac-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/selenium-api-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/selenium-java-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/selenium-java-2.53.0-srcs.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/selenium-support-2.53.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/serializer-2.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/swt_win32_x86.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/testng-6.9.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/websocket-api-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/websocket-client-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/websocket-common-9.2.13.v20150730.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/ws-commons-util-1.0.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/xalan-2.7.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/xercesImpl-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/xml-apis-1.4.01.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/xmlrpc-client-3.1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/GIT/cds-START-e2e-tests/lib/xmlrpc-common-3.1.2.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
